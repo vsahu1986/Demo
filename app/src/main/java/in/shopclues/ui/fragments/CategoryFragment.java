@@ -28,15 +28,15 @@ public class CategoryFragment extends Fragment {
     ViewPager viewPager;
     CirclePageIndicator circlePageIndicator;
 
+    public CategoryFragment() {
+    }
+
     public static CategoryFragment newInstance(int sectionNumber) {
         CategoryFragment fragment = new CategoryFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
         fragment.setArguments(args);
         return fragment;
-    }
-
-    public CategoryFragment() {
     }
 
     @Override

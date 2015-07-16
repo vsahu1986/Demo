@@ -27,19 +27,17 @@ import in.shopclues.ui.widget.SlidingTabLayout;
 public class MainActivity extends AppCompatActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks, ScrimInsetsFrameLayout.OnInsetsCallback ,ViewPager.OnPageChangeListener{
 
+    Toolbar toolbar;
+    CategoryAdapter mPagerAdapter;
+    SlidingTabLayout slidingTabLayout;
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
-
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
-
-    Toolbar toolbar;
-    CategoryAdapter mPagerAdapter;
-    SlidingTabLayout slidingTabLayout;
     private HackyViewPager mPager;
     private Resources res;
 

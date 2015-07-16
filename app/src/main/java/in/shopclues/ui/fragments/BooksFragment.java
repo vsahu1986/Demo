@@ -28,15 +28,15 @@ public class BooksFragment extends Fragment {
      */
     int resId[] = new int[]{R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d, R.drawable.e, R.drawable.f, R.drawable.g, R.drawable.h};
 
+    public BooksFragment() {
+    }
+
     public static BooksFragment newInstance(int sectionNumber) {
         BooksFragment fragment = new BooksFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
         fragment.setArguments(args);
         return fragment;
-    }
-
-    public BooksFragment() {
     }
 
     @Override
