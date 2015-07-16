@@ -20,11 +20,11 @@
         android:layout_below="@+id/book_pager"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="100dp"
-        shopclue:fillColor="@color/splash_screen_color"
-        shopclue:strokeColor="@color/splash_screen_color"
+        shopclue:fillColor="@color/colorPrimaryDark"
+        shopclue:strokeColor="@color/colorPrimary"
         android:background="@android:color/white"
-        android:layout_height="20dp"
+        android:layout_height="16dp"
         shopclue:radius="5dp"
         android:padding="5dip"
-        shopclue:strokeWidth="2dp"/>
+        shopclue:strokeWidth="1dp"/>
 </RelativeLayout>
